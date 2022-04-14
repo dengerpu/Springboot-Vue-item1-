@@ -1,0 +1,121 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.page {
+    padding: 5% 0;
+    background: url('../img/场景-工作讨论.svg') no-repeat;
+    background-position: 100px;
+    background-color: antiquewhite;
+}
+
+.logincontent {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logincontent .myform {
+    /* margin-left: 60%; */
+    z-index: 2;
+    width: 400px;
+    /* height: 450px; */
+    background: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f4f4f4));
+    background-image: -webkit-linear-gradient(top, #fff, #f4f4f4);
+    background-image: -moz-linear-gradient(top, #fff 0, #f4f4f4 100%);
+    background-image: linear-gradient(-180deg, #fff, #f4f4f4);
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+}
+
+.logincontent .myform .loginlogo {
+    margin-bottom: 20px;
+}
+
+
+/* login表格样式 */
+
+.itemgroup {
+    padding: 60px 25px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.logincontent .myform .btn {
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(109, 109, 109);
+}
+
+
+/* 头部样式 */
+
+.myheader {
+    height: 80px;
+    color: #fff;
+}
+
+.el-header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.el-footer {
+    background-color: #dfdfd5;
+    color: #fff;
+    text-align: center;
+}
+.el-aside {
+    background-color: #000;
+    color: #0883f7;
+    text-align: center;
+    line-height: 200px;
+}
+
+.el-main {
+    background-color: #dfdfd5;
+    /* background-color: #66b5cd; */
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+body>.el-container {
+    margin-bottom: 0px;
+}
+
+.loginpageback {
+    padding: 4% 0;
+    background-color: #66b5cd;
+}
+
+.el-table__header tr,
+  .el-table__header th {
+    padding: 0;
+    height: 100px;
+    color:#000;
+}
+.el-table__body tr,
+  .el-table__body td {
+    padding: 0;
+    height: 40px;
+}
